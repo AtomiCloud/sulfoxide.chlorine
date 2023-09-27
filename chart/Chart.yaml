@@ -2,7 +2,7 @@ apiVersion: v2
 name: atomi-reloader
 description: AtomiCloud Reloader Chart is a wrapper for Reloader chart
 type: application
-version: 1.0.0
+version: 1.0.1
 appVersion: "v1.0.26"
 dependencies:
   - name: reloader
