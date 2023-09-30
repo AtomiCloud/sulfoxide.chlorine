@@ -1,9 +1,10 @@
 version: "3"
 
 env:
-  RELEASE_NAME: reloader
+  RELEASE_NAME: sulfoxide-chlorine
 
 includes:
+  util: tasks/Taskfile.util.yaml
   pichu:opal:
     taskfile: tasks/Taskfile.cluster.yaml
     vars:
@@ -28,3 +29,12 @@ tasks:
     dir: chart
     cmds:
       - helm dependency update
+
+  latest:
+    desc: Get the latest version of Reloader
+    cmds:
+      - task: util:latest
+        vars:
+          REPO_NAME: reloader
+          REPO_URL: https://stakater.github.io/stakater-charts
+          CHART_NAME: reloader

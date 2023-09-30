@@ -1,10 +1,10 @@
 apiVersion: v2
-name: atomi-reloader
-description: AtomiCloud Reloader Chart is a wrapper for Reloader chart
+name: sulfoxide-chlorine
+description: Helm Chart to install reloader, ensuring pods are reloaded when secrets or configmap changes
 type: application
 version: 1.0.1
-appVersion: "v1.0.26"
+appVersion: "v1.0.41"
 dependencies:
   - name: reloader
-    version: v1.0.26
+    version: v1.0.41
     repository: https://stakater.github.io/stakater-charts
