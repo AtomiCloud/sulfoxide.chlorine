@@ -1,10 +1,16 @@
+# -- AtomiCloud Service Tree. See [ServiceTree](https://atomicloud.larksuite.com/wiki/OkfJwTXGFiMJkrk6W3RuwRrZs64?theme=DARK&contentTheme=DARK#MHw5d76uDo2tBLx86cduFQMRsBb)
 serviceTree:
-  landscape: pichu
-  cluster: opal
-  platform: systems
-  service: reloader
-  layer: "1"
+  platform: &platform sulfoxide
+  service: &service chlorine
+  layer: &layer "1"
 
+# -- Kubernetes labels and annotations, following Service Tree
+tags: &tags
+  atomi.cloud/platform: *platform
+  atomi.cloud/service: *service
+  atomi.cloud/layer: *layer
+
+# -- Reloader Configuration. See [Reloader Helm Chart Documentation](https://github.com/stakater/Reloader/blob/master/deployments/kubernetes/chart/reloader/values.yaml)
 reloader:
   reloader:
     reloadOnCreate: true
@@ -15,10 +21,9 @@ reloader:
           whenUnsatisfiable: ScheduleAnyway
           labelSelector:
             matchLabels:
-              atomi.cloud/service: reloader
+              <<: *tags
               atomi.cloud/module: operator
-      nodeSelector:
-        kubernetes.io/os: linux
+      nodeSelector: {}
       resources:
         limits:
           cpu: 500m
@@ -27,24 +32,12 @@ reloader:
           cpu: 10m
           memory: 128Mi
       annotations:
-        atomi.cloud/landscape: pichu
-        atomi.cloud/cluster: opal
-        atomi.cloud/platform: systems
-        atomi.cloud/service: reloader
+        <<: *tags
         atomi.cloud/module: operator
-        atomi.cloud/layer: "1"
       labels:
-        atomi.cloud/landscape: pichu
-        atomi.cloud/cluster: opal
-        atomi.cloud/platform: systems
-        atomi.cloud/service: reloader
+        <<: *tags
         atomi.cloud/module: operator
-        atomi.cloud/layer: "1"
       pod:
         annotations:
-          atomi.cloud/landscape: pichu
-          atomi.cloud/cluster: opal
-          atomi.cloud/platform: systems
-          atomi.cloud/service: reloader
+          <<: *tags
           atomi.cloud/module: operator
-          atomi.cloud/layer: "1"
