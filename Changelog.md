@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.1.0...v1.1.1) (2023-09-30)
+
+
+### 🐛 Bug Fixes
+
+* change cluster render to cluster template ([9bc8d61](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/9bc8d615e59e618325f1dd2ef750bda228884eec))
+
 ## [1.1.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.0.1...v1.1.0) (2023-09-30)
 
 
