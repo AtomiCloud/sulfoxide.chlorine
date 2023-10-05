@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.1.1...v1.2.0) (2023-10-05)
+
+
+### 🚀 New Features
+
+* pichu, pikachu and raichu values ([6fd35a2](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/6fd35a202568d80510c83b23ad088091f6e13f82))
+
 ## [1.1.1](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.1.0...v1.1.1) (2023-09-30)
 
 
