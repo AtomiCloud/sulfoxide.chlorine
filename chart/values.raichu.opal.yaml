@@ -1,0 +1,29 @@
+serviceTree:
+  landscape: &landscape raichu
+  cluster: &cluster opal
+
+tags: &tags
+  atomi.cloud/landscape: *landscape
+  atomi.cloud/cluster: *cluster
+
+reloader:
+  reloader:
+    deployment:
+      topologySpreadConstraints:
+        - labelSelector:
+            matchLabels:
+              <<: *tags
+      resources:
+        limits:
+          cpu: 500m
+          memory: 256Mi
+        requests:
+          cpu: 10m
+          memory: 128Mi
+      annotations:
+        <<: *tags
+      labels:
+        <<: *tags
+      pod:
+        annotations:
+          <<: *tags
