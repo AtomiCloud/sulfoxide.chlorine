@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.3.0...v1.3.1) (2023-10-06)
+
+
+### 🐛 Bug Fixes
+
+* incorrect merge for topologySpreadConstraints ([0a05681](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/0a0568168739a199a7677ef6d0288d398b87b90e))
+
 ## [1.3.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.2.0...v1.3.0) (2023-10-06)
 
 
