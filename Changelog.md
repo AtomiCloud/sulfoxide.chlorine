@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.2.0...v1.3.0) (2023-10-06)
+
+
+### 🚀 New Features
+
+* remove for virtual clusters and add physical cluster ([e7111cd](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/e7111cde525b98793f297454ba5f6a0857129df4))
+
 ## [1.2.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.1.1...v1.2.0) (2023-10-05)
 
 
