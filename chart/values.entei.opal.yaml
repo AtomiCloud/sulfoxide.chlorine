@@ -1,5 +1,5 @@
 serviceTree:
-  landscape: &landscape pichu
+  landscape: &landscape entei
   cluster: &cluster opal
 
 tags: &tags
