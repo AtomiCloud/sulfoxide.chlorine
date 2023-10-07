@@ -10,6 +10,24 @@ tags: &tags
   atomi.cloud/service: *service
   atomi.cloud/layer: *layer
 
+# -- YAML Anchor for PodSecurityContext
+podSecurityContext: &podSecurityContext
+  runAsUser: 1000
+  runAsGroup: 1000
+  fsGroup: 1000
+  runAsNonRoot: true
+
+# -- YAML Anchor for SecurityContext
+securityContext: &securityContext
+  allowPrivilegeEscalation: false
+  readOnlyRootFilesystem: true
+  runAsNonRoot: true
+  runAsUser: 1000
+  runAsGroup: 1000
+  capabilities:
+    drop:
+      - ALL
+
 # -- Reloader Configuration. See [Reloader Helm Chart Documentation](https://github.com/stakater/Reloader/blob/master/deployments/kubernetes/chart/reloader/values.yaml)
 reloader:
   reloader:
@@ -23,7 +41,9 @@ reloader:
             matchLabels:
               <<: *tags
               atomi.cloud/module: operator
-      nodeSelector: {}
+      containerSecurityContext: *securityContext
+      securityContext: *podSecurityContext
+      nodeSelector: { }
       resources:
         limits:
           cpu: 500m
