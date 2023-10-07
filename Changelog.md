@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.3.1...v1.3.2) (2023-10-07)
+
+
+### 🐛 Bug Fixes
+
+* security context ([0eb3df6](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/0eb3df6f0301e94024a0e745ab12211275da4a74))
+
 ## [1.3.1](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.3.0...v1.3.1) (2023-10-06)
 
 
