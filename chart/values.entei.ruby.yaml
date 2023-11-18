@@ -1,0 +1,33 @@
+serviceTree:
+  landscape: &landscape entei
+  cluster: &cluster ruby
+
+tags: &tags
+  atomi.cloud/landscape: *landscape
+  atomi.cloud/cluster: *cluster
+
+reloader:
+  reloader:
+    deployment:
+      topologySpreadConstraints:
+        - maxSkew: 1
+          topologyKey: "topology.kubernetes.io/zone"
+          whenUnsatisfiable: ScheduleAnyway
+          labelSelector:
+            matchLabels:
+              <<: *tags
+              atomi.cloud/module: operator
+      resources:
+        limits:
+          cpu: 500m
+          memory: 256Mi
+        requests:
+          cpu: 10m
+          memory: 128Mi
+      annotations:
+        <<: *tags
+      labels:
+        <<: *tags
+      pod:
+        annotations:
+          <<: *tags
