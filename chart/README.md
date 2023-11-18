@@ -1,6 +1,6 @@
 # sulfoxide-chlorine
 
-![Version: 1.3.2](https://img.shields.io/badge/Version-1.3.2-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v1.0.41](https://img.shields.io/badge/AppVersion-v1.0.41-informational?style=flat-square)
+![Version: 1.3.2](https://img.shields.io/badge/Version-1.3.2-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v1.0.52](https://img.shields.io/badge/AppVersion-v1.0.52-informational?style=flat-square)
 
 Helm Chart to install reloader, ensuring pods are reloaded when secrets or configmap changes
 
@@ -8,7 +8,7 @@ Helm Chart to install reloader, ensuring pods are reloaded when secrets or confi
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://stakater.github.io/stakater-charts | reloader | v1.0.41 |
+| https://stakater.github.io/stakater-charts | reloader | v1.0.52 |
 
 ## Values
 
