@@ -1,3 +1,15 @@
+## [1.4.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.3.2...v1.4.0) (2023-11-18)
+
+
+### 📦 Upstreams Changes
+
+* reloader to 1.0.52 ([89a4085](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/89a4085154899c272884ea620fd2f358a49a70ee))
+
+
+### 🚀 New Features
+
+* ruby values ([56de64e](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/56de64e11207f2837b400046f58ebf1ce4ef6e4f))
+
 ## [1.3.2](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.3.1...v1.3.2) (2023-10-07)
 
 
