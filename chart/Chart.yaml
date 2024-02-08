@@ -2,7 +2,7 @@ apiVersion: v2
 name: sulfoxide-chlorine
 description: Helm Chart to install reloader, ensuring pods are reloaded when secrets or configmap changes
 type: application
-version: 1.4.0
+version: 1.4.1
 appVersion: "v1.0.52"
 dependencies:
   - name: reloader

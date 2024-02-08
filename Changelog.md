@@ -1,3 +1,11 @@
+## [1.4.1](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.4.0...v1.4.1) (2024-02-08)
+
+
+### 🐛 Bug Fixes
+
+* releaser ([4142955](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/41429551d1fb9d328701c45f364cd405e5278278))
+* remove topologySpreadConstraints from landscape values ([044e0cd](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/044e0cd673d9a5adf06a15ae43e069bec4b97855))
+
 ## [1.4.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.3.2...v1.4.0) (2023-11-18)
 
 
