@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.4.1...v1.5.0) (2024-08-11)
+
+
+### 📦 Upstreams Changes
+
+* upgrade nix, helm upstream, GHA ([126414f](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/126414f48160c0a068df26ef4717413141331577))
+
 ## [1.4.1](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.4.0...v1.4.1) (2024-02-08)
 
 
