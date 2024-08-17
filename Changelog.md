@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.5.0...v1.6.0) (2024-08-17)
+
+
+### 🚀 New Features
+
+* remove onyx ([8e1859f](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/8e1859f86a4895c946a40ee22053888fa75d51ec))
+
 ## [1.5.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.4.1...v1.5.0) (2024-08-11)
 
 
