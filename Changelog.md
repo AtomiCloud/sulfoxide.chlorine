@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.6.0...v1.7.0) (2024-08-28)
+
+
+### 🚀 New Features
+
+* values for mica & talc ([b29ebcf](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/b29ebcf2dcbe6a5ee34e9bfac5f0bc1c9ed47c06))
+
 ## [1.6.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.5.0...v1.6.0) (2024-08-17)
 
 
