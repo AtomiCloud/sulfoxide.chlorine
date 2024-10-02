@@ -1,3 +1,10 @@
+## [1.8.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.7.0...v1.8.0) (2024-10-02)
+
+
+### 📦 Upstreams Changes
+
+* **atominix:** update to 28.0.0 ([63fbb63](https://github.com/AtomiCloud/sulfoxide.chlorine/commit/63fbb6366f12bfb8c1d5c6fa7e00b01eac09eb1b))
+
 ## [1.7.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.6.0...v1.7.0) (2024-08-28)
 
 
